@@ -2,7 +2,9 @@
 (function() {
   var baselayer, bufferLayer, bufferStyle, dataLayer, dataSet, map, markerStyle, zoomTo;
 
-  map = L.map('map');
+  map = L.map('map', {
+    minZoom: 4
+  });
 
   map.setView([37.535122, -97.342625], 4);
 
