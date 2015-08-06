@@ -1,0 +1,90 @@
+// Title Section
+#title-section {
+  background-color: black;
+  color: white;
+  background-image: url(http://i.imgur.com/IoIA6yK.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  #title {
+    margin-top: 21px;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px black;
+  }
+  #description {
+    font-size:1.3em;
+    text-shadow: 0px 0px 3px black;
+  }
+}
+
+// Map
+#map {
+  margin: 3em auto 2em auto;
+  height: 400px;
+  max-width: 900px;
+  background-color: black;
+  border-radius: 4px;
+}
+
+.map-label {
+  color: #ef5350;
+  font-size: 2em;
+}
+
+// Text Section
+#paragraph-section {
+  p {
+    font-size: 1.1em;
+  }
+
+}
+
+#donate-button {
+  background-color: #ffee58;
+  font-weight: bold;
+}
+
+.share-button {
+  font-weight: bold;
+  margin: 0 10px 20px 10px;
+}
+#fb-button {
+  background-color: #1565c0;
+  color: white;
+}
+
+#twit-button {
+  background-color: #81d4fa;
+}
+
+// Modal
+#main-modal{
+  a:hover {
+    color: #424242;
+  }
+}
+
+#dolla-sign {
+  font-size: 4.4em;
+  font-weight: bold;
+  color: #ffb300;
+}
+.donation-selector {
+  margin-bottom: 15px;
+  margin-top: 5px;
+
+  a{
+    font-weight: bold;
+  }
+  .present-size {
+    font-size: 4em;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+#share-container {
+  font-size: 1.25em;
+}
