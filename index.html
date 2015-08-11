@@ -1,8 +1,6 @@
 <!doctype html>
 
-<html xmlns="http://www.w3.org/1999/xhtml"
-xmlns:og="http://ogp.me/ns#"
-xmlns:fb="http://www.facebook.com/2008/fbml">
+<html>
 
 <!-- Main page for TVMP pre-release -->
 
@@ -95,6 +93,25 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
         <a href="#!" class=" modal-action modal-close waves-effect btn-flat">I don't want to donate.</a>
       </div>
     </div>
+    
+    <!--Facebook SDK-->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '499093633600445',
+          xfbml      : true,
+          version    : 'v2.4'
+        });
+      };
+    
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
 
 
     <!-- Resource scripts -->
