@@ -186,13 +186,7 @@
 
   dataLayer = L.geoJson(dataSet, {
     pointToLayer: function(feature, latlng) {
-      return L.circleMarker(latlng, markerStyle);
-    },
-    onEachFeature: function(feature) {
-      feature.bindLabel(feature.properties.name, {
-        noHide: true,
-        direction: 'auto'
-      })
+      return L.circleMarker(latlng, markerStyle).bindLabel(feature.properties.name);
     }
   });
 
