@@ -24,7 +24,9 @@
 .map-label {
   color: #ef5350;
   font-size: 2em; }
-
+.leaflet-popup {
+  color: black;
+}
 #paragraph-section p {
   font-size: 1.1em; }
 
