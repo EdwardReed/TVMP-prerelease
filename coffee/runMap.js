@@ -149,6 +149,7 @@
           },
           'properties': {
             'name': 'Ashton O\'Hara'
+          }
       }, {
           'type': 'Feature',
           'geometry': {
@@ -157,7 +158,7 @@
           },
           'properties': {
             'name': 'Amber Munroe'
-      }
+          }
       }
     ]
   };
