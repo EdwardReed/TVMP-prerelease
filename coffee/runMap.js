@@ -149,13 +149,11 @@
           },
           'properties': {
             'name': 'Ashton O\'Hara'
-      }, 
-      // Incomplete
-      {
+      }, {
           'type': 'Feature',
           'geometry': {
             'type': 'Point',
-            'coordinates': []
+            'coordinates': [-83.106023, 42.419807]
           },
           'properties': {
             'name': 'Amber Munroe'
