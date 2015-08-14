@@ -31,7 +31,7 @@
           'coordinates': [-80.290644, 25.752251]
         },
         'properties': {
-          'name': 'Kristina Gomez Reinwald'
+          'name': 'Kristina Grant Infiniti'
         }
       }, {
         'type': 'Feature',
@@ -58,7 +58,7 @@
           'coordinates': [-122.386800, 37.734507]
         },
         'properties': {
-          'name': 'Taja deJesus'
+          'name': 'Taja de Jesus'
         }
       }, {
         'type': 'Feature',
@@ -67,7 +67,7 @@
           'coordinates': [-118.451057, 34.208435]
         },
         'properties': {
-          'name': 'Yazmin Payne'
+          'name': 'Yazmin Vash Payne'
         }
       }, {
         'type': 'Feature',
@@ -123,7 +123,44 @@
         'properties': {
           'name': 'KC Haggard'
         }
+      }, {
+         'type': 'Feature',
+          'geometry': {
+            'type': 'Point',
+            'coordinates': [-76.773816, 39.110046]
+          },
+          'properties': {
+            'name': 'Mya Hall'
+          } 
+      }, {
+          'type': 'Feature',
+          'geometry': {
+            'type': 'Point',
+            'coordinates': [-96.855928, 32.815806]
+          },
+          'properties': {
+            'name': 'Shade Shuler'
+        }  
+      }, {
+          'type': 'Feature',
+          'geometry': {
+            'type': 'Point',
+            'coordinates': [-83.112836, 42.426215]
+          },
+          'properties': {
+            'name': 'Ashton O'Hara'
+      }, 
+      // Incomplete
+      {
+          'type': 'Feature',
+          'geometry': {
+            'type': 'Point',
+            'coordinates': []
+          },
+          'properties': {
+            'name': 'Amber Munroe'
       }
+      
     ]
   };
 
@@ -154,14 +191,6 @@
     }
   });
 
-  bufferLayer = L.geoJson(dataSet, {
-    pointToLayer: function(feature, latlng) {
-      return L.circleMarker(latlng, bufferStyle);
-    }
-  });
-
   dataLayer.addTo(map);
-
-  bufferLayer.addTo(map);
 
 }).call(this);
