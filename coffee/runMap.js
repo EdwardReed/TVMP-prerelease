@@ -188,7 +188,7 @@
     pointToLayer: function(feature, latlng) {
       return L.circleMarker(latlng, markerStyle);
     },
-    onEachFeature: function(feature, latlng) {
+    onEachFeature: function(feature, layer) {
       if (feature.properties.name) {
         layer.bindPopup(feature.properties.name);
       }
