@@ -148,7 +148,7 @@
             'coordinates': [-83.112836, 42.426215]
           },
           'properties': {
-            'name': 'Ashton O'Hara'
+            'name': 'Ashton O\'Hara'
       }, 
       // Incomplete
       {
