@@ -160,7 +160,7 @@
           'properties': {
             'name': 'Amber Munroe'
       }
-      
+      }
     ]
   };
 
