@@ -5041,32 +5041,13 @@ span.badge {
   content: "\e8f5"; }
 
 .container {
-<<<<<<< HEAD
   margin: 0 0; }
-
-=======
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 90%; }
-
-@media only screen and (min-width: 601px) {
-  .container {
-    width: 85%; } }
-@media only screen and (min-width: 993px) {
-  .container {
-    width: 70%; } }
->>>>>>> First commit github page
 .container .row {
   margin-left: -0.75rem;
   margin-right: -0.75rem; }
 
 .section {
-<<<<<<< HEAD
   padding-top: 1rem; }
-=======
-  padding-top: 1rem;
-  padding-bottom: 1rem; }
->>>>>>> First commit github page
   .section.no-pad {
     padding: 0; }
   .section.no-pad-bot {
@@ -5075,13 +5056,8 @@ span.badge {
     padding-top: 0; }
 
 .row {
-<<<<<<< HEAD
   margin-left: 0;
   margin-right: 0;
-=======
-  margin-left: auto;
-  margin-right: auto;
->>>>>>> First commit github page
   margin-bottom: 20px; }
   .row:after {
     content: "";

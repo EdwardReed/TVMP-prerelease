@@ -1,26 +1,12 @@
 .container {
-<<<<<<< HEAD
   margin: 0 0;
 }
 @media #{$medium-and-up} {
   .container {
-=======
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 90%;
-}
-@media #{$medium-and-up} {
-  .container {
-    width: 85%;
->>>>>>> First commit github page
   }
 }
 @media #{$large-and-up} {
   .container {
-<<<<<<< HEAD
-=======
-    width: 70%;
->>>>>>> First commit github page
   }
 }
 .container .row {
@@ -29,13 +15,7 @@
 }
 
 .section {
-<<<<<<< HEAD
  padding-top: 1rem;
-=======
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-
->>>>>>> First commit github page
   &.no-pad {
     padding: 0;
   }
@@ -49,13 +29,8 @@
 
 
 .row {
-<<<<<<< HEAD
   margin-left: 0;
   margin-right: 0;
-=======
-  margin-left: auto;
-  margin-right: auto;
->>>>>>> First commit github page
   margin-bottom: 20px;
 
   // Clear floating children

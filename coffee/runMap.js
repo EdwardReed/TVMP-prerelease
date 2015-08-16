@@ -162,12 +162,9 @@
 
   bufferLayer.addTo(map);
 
-<<<<<<< HEAD
   $('a#map-toggle, #map-exit').on('click', function(event) {
     event.preventDefault();
     return $('#title-section').toggleClass('map-modal');
   });
 
-=======
->>>>>>> First commit github page
 }).call(this);
