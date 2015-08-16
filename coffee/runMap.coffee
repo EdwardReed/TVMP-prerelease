@@ -179,3 +179,7 @@ bufferLayer = L.geoJson dataSet,
 
 dataLayer.addTo(map)
 bufferLayer.addTo(map)
+
+$('a#map-toggle, #map-exit').on 'click', (event) ->
+  event.preventDefault()
+  $('#title-section').toggleClass('map-modal')
