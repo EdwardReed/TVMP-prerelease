@@ -23,6 +23,24 @@ body {
   width: 80%;
   max-width: 945px;
   background-color: black;
+<<<<<<< HEAD
+  border-radius: 4px; }
+<<<<<<< HEAD
+
+.map-label {
+  color: #ef5350;
+  font-size: 2em; }
+.leaflet-popup {
+  color: black;
+}
+=======
+.leaflet-popup {
+  color:black;
+}
+.map-label {
+  color: #ef5350;
+  font-size: 2em; }
+=======
   border-radius: 5px;
   z-index: 1001; }
 
@@ -105,7 +123,9 @@ body {
   margin-bottom: 0px;
   color: white;
   background-color: black; }
+>>>>>>> 4861e01a52949ae023d1dadb6b2301b480a9c38b
 
+>>>>>>> 6576eaf4fb96e9ca43759e43375a2c3f95c56dba
 #paragraph-section p {
   font-size: 18px; }
 
@@ -113,13 +133,19 @@ body {
   background-color: #ffee58;
   font-weight: bold; }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
 .btn-flat {
   font-size: 0.9rem; }
 
+>>>>>>> 4861e01a52949ae023d1dadb6b2301b480a9c38b
 .share-button {
   font-weight: bold;
   margin: 0 10px 20px 10px; }
 
+>>>>>>> 6576eaf4fb96e9ca43759e43375a2c3f95c56dba
 #fb-button {
   background-color: #1565c0;
   color: white; }

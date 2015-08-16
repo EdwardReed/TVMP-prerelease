@@ -191,9 +191,23 @@
         zoomAnimation: true,
         direction: "auto"
       });
+      return L.circleMarker(latlng, markerStyle);
+    }
+  });
+
+  bufferLayer = L.geoJson(dataSet, {
+    pointToLayer: function(feature, latlng) {
+      return L.circleMarker(latlng, bufferStyle);
     }
   });
 
   dataLayer.addTo(map);
+
+  bufferLayer.addTo(map);
+
+  $('a#map-toggle, #map-exit').on('click', function(event) {
+    event.preventDefault();
+    return $('#title-section').toggleClass('map-modal');
+  });
 
 }).call(this);
