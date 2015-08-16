@@ -2,9 +2,13 @@
 (function() {
   var baselayer, bufferLayer, bufferStyle, dataLayer, dataSet, map, markerStyle, zoomTo;
 
+<<<<<<< HEAD
   map = L.map('map', {
     minZoom: 4
   });
+=======
+  map = L.map('map');
+>>>>>>> 6576eaf4fb96e9ca43759e43375a2c3f95c56dba
 
   map.setView([37.535122, -97.342625], 4);
 
@@ -31,7 +35,11 @@
           'coordinates': [-80.290644, 25.752251]
         },
         'properties': {
+<<<<<<< HEAD
           'name': 'Kristina Grant Infiniti'
+=======
+          'name': 'Kristina Gomez Reinwald'
+>>>>>>> 6576eaf4fb96e9ca43759e43375a2c3f95c56dba
         }
       }, {
         'type': 'Feature',
@@ -58,7 +66,11 @@
           'coordinates': [-122.386800, 37.734507]
         },
         'properties': {
+<<<<<<< HEAD
           'name': 'Taja de Jesus'
+=======
+          'name': 'Taja deJesus'
+>>>>>>> 6576eaf4fb96e9ca43759e43375a2c3f95c56dba
         }
       }, {
         'type': 'Feature',
@@ -67,7 +79,11 @@
           'coordinates': [-118.451057, 34.208435]
         },
         'properties': {
+<<<<<<< HEAD
           'name': 'Yazmin Vash Payne'
+=======
+          'name': 'Yazmin Payne'
+>>>>>>> 6576eaf4fb96e9ca43759e43375a2c3f95c56dba
         }
       }, {
         'type': 'Feature',
@@ -123,6 +139,7 @@
         'properties': {
           'name': 'KC Haggard'
         }
+<<<<<<< HEAD
       }, {
          'type': 'Feature',
           'geometry': {
@@ -159,6 +176,8 @@
           'properties': {
             'name': 'Amber Munroe'
           }
+=======
+>>>>>>> 6576eaf4fb96e9ca43759e43375a2c3f95c56dba
       }
     ]
   };
@@ -186,14 +205,29 @@
 
   dataLayer = L.geoJson(dataSet, {
     pointToLayer: function(feature, latlng) {
+<<<<<<< HEAD
       return L.circleMarker(latlng, markerStyle).bindLabel(feature.properties.name, {
         clickable: true,
         zoomAnimation: true,
         direction: "auto"
       });
+=======
+      return L.circleMarker(latlng, markerStyle);
+    }
+  });
+
+  bufferLayer = L.geoJson(dataSet, {
+    pointToLayer: function(feature, latlng) {
+      return L.circleMarker(latlng, bufferStyle);
+>>>>>>> 6576eaf4fb96e9ca43759e43375a2c3f95c56dba
     }
   });
 
   dataLayer.addTo(map);
 
+<<<<<<< HEAD
+=======
+  bufferLayer.addTo(map);
+
+>>>>>>> 6576eaf4fb96e9ca43759e43375a2c3f95c56dba
 }).call(this);

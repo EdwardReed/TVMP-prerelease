@@ -20,6 +20,7 @@
   max-width: 900px;
   background-color: black;
   border-radius: 4px; }
+<<<<<<< HEAD
 
 .map-label {
   color: #ef5350;
@@ -27,6 +28,15 @@
 .leaflet-popup {
   color: black;
 }
+=======
+.leaflet-popup {
+  color:black;
+}
+.map-label {
+  color: #ef5350;
+  font-size: 2em; }
+
+>>>>>>> 6576eaf4fb96e9ca43759e43375a2c3f95c56dba
 #paragraph-section p {
   font-size: 1.1em; }
 
@@ -34,6 +44,13 @@
   background-color: #ffee58;
   font-weight: bold; }
 
+<<<<<<< HEAD
+=======
+.share-button {
+  font-weight: bold;
+  margin: 0 10px 20px 10px; }
+
+>>>>>>> 6576eaf4fb96e9ca43759e43375a2c3f95c56dba
 #fb-button {
   background-color: #1565c0;
   color: white; }
