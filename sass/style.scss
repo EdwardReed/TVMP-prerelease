@@ -1,0 +1,194 @@
+body {
+  letter-spacing: .1px;
+}
+h1 {
+  
+}
+// Title Section
+#title-section {
+  color: white;
+  background-image: url(http://i.imgur.com/IoIA6yK.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  #title {
+    margin-top: 21px;
+    font-size: 34px;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px black;
+  }
+  #description {
+    font-size:1.3em;
+    text-shadow: 0px 0px 3px black;
+  }
+}
+
+// Map
+#map {
+  margin: 5em auto 2em auto;
+  height: 465px;
+  width: 80%;
+  max-width: 945px;
+  background-color: black;
+  border-radius: 5px;
+  z-index: 1001;
+}
+
+#caption {
+  display: none;
+  text-align: center;
+}
+
+#map-exit {
+  display: none;
+}
+@media screen and (max-width:422px) {
+  #map {
+    height: 250px;
+  }
+  .map-modal {
+    &#title-section {
+      background-image: none;
+      background-color: black;
+    }
+    #map-exit {
+      display: block;
+      text-align: center;
+      cursor: pointer;
+      background-color: black;
+      color: red;
+      font-size: 20px;
+      z-index: 1002;
+      border-bottom: 1px solid white;
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      padding: 8px;
+    }
+    #map.leaflet-container {
+      position: absolute;
+      margin-top: -175px;
+      width: 100%;
+      height: 1000px;
+      border-radius: 0px;
+      .leaflet-top {
+        top: 55px;
+      }
+    }
+  }
+  #caption {
+    display: block;
+  }
+  #title-section {
+    height: 555px;
+  }
+}
+
+// Text Section
+.section {
+    padding-top: 1rem;
+    height: 98px;
+
+    #hi-wrapper {
+      width: 100%;
+      #hi {
+        display: block;
+        position: relative;
+        font-size: 66px;
+        padding-bottom: 66px;
+        margin-top: 89px;
+        background-color: black;
+        h2 {
+          font-size: 2.56rem;
+          margin: 66px 0px 18px;
+        }
+        a {
+          font-size: 3rem;
+          color: red;
+        }
+      }
+    }
+}
+
+.container#body-paragraph {
+  margin: 66px 55px 0px;
+  h4 {
+    color: #ef5350;
+    text-align: left;
+    font-size: 36px;
+    line-height: 1.3;
+  }
+}
+@media screen and (max-width: 535px) {
+  .container#body-paragraph {
+    margin: 66px 10px 0px;
+  }
+}
+#donate-share {
+  padding: 5% 25px;
+}
+#footer {
+  padding: 28px 55px 52px;
+  margin-bottom: 0px;
+  color: white;
+  background-color: black;
+}
+#paragraph-section {
+  p {
+      font-size: 18px;
+  }
+
+}
+
+#donate-button {
+  background-color: #ffee58;
+  font-weight: bold;
+}
+.btn-flat {
+  font-size: 0.9rem;
+}
+.share-button {
+  font-weight: bold;
+  margin: 0 10px 20px 10px;
+}
+#fb-button {
+  background-color: #1565c0;
+  color: white;
+}
+
+#twit-button {
+  background-color: #81d4fa;
+}
+
+@media screen and (max-width:422px) {
+  #twit-button {
+    font-size: 0.7rem;
+  }
+}
+// Modal
+#main-modal{
+  a:hover {
+    color: #424242;
+  }
+}
+
+#dolla-sign {
+  font-size: 4.4em;
+  font-weight: bold;
+  color: #ffb300;
+}
+.donation-selector {
+  margin-bottom: 15px;
+  margin-top: 5px;
+
+  a{
+    font-weight: bold;
+  }
+  .present-size {
+    font-size: 4em;
+  }
+  p {
+    margin: 0;
+  }
+}
