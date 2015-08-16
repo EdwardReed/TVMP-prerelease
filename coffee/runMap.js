@@ -2,13 +2,10 @@
 (function() {
   var baselayer, bufferLayer, bufferStyle, dataLayer, dataSet, map, markerStyle, zoomTo;
 
-<<<<<<< HEAD
   map = L.map('map', {
     minZoom: 4
   });
-=======
   map = L.map('map');
->>>>>>> 6576eaf4fb96e9ca43759e43375a2c3f95c56dba
 
   map.setView([37.535122, -97.342625], 4);
 
@@ -229,5 +226,13 @@
 =======
   bufferLayer.addTo(map);
 
+<<<<<<< HEAD
 >>>>>>> 6576eaf4fb96e9ca43759e43375a2c3f95c56dba
+=======
+  $('a#map-toggle, #map-exit').on('click', function(event) {
+    event.preventDefault();
+    return $('#title-section').toggleClass('map-modal');
+  });
+
+>>>>>>> 4861e01a52949ae023d1dadb6b2301b480a9c38b
 }).call(this);

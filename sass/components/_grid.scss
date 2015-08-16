@@ -1,16 +1,12 @@
 .container {
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 90%;
+  margin: 0 0;
 }
 @media #{$medium-and-up} {
   .container {
-    width: 85%;
   }
 }
 @media #{$large-and-up} {
   .container {
-    width: 70%;
   }
 }
 .container .row {
@@ -19,9 +15,7 @@
 }
 
 .section {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-
+ padding-top: 1rem;
   &.no-pad {
     padding: 0;
   }
@@ -35,8 +29,8 @@
 
 
 .row {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 20px;
 
   // Clear floating children
